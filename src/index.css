@@ -1,0 +1,324 @@
+
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+
+html {
+  padding-bottom: 4rem !important;
+  margin-bottom: 4rem;
+}
+
+/* Header CSS */
+.header {
+
+  background-image: linear-gradient(#00b09b, #96c93d);
+  background-attachment: fixed;
+  width: 100%;
+  height: 10vh;
+  position: relative;
+
+}
+
+.headingTop {
+
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.logo {
+
+  width: 5vw;
+  height: 10vh;
+  float: left;
+  position: relative;
+  background-attachment: fixed;
+  background-position: fixed;
+ 
+}
+
+.test-class{
+
+  position: absolute;
+  right: 2rem;
+  bottom: 1rem !important;
+}
+
+/* Create CSS */
+
+.main_div {
+
+  background-color: #fff;
+  box-shadow: 5px 5px 5px 2px #868686;
+  border-radius: 4px;
+  position: relative;
+  top: 80px;
+  left: 30%;
+  width: 40%;
+  height: 25vh;
+}
+
+.main_div input,textarea {
+  width: 39.5vw;
+  height: 6vh;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main_div textarea {
+
+    position: absolute;
+    top: 26%;
+    height: 16vh;
+    font-size: 18px;
+}
+
+.main_div Button {
+
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    right: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0,0, 0.3) ;
+    width: 5vw;
+    height: 8vh;
+
+
+}
+
+.plus {
+  font-weight: 900;
+  font-size: 45px !important;
+  color: #fdb827;
+  cursor: pointer;
+  z-index: 222;
+  background: transparent; 
+
+}
+.main_div Button:hover {
+
+  background: linear-gradient(#00b09b, #96c93d);
+}
+
+/* Task CSS */
+
+.divTask {
+
+  border-radius: 7px;
+  filter: drop-shadow(2px 4px 8px #585858);
+  padding: 10px;
+  margin-top: 12rem;
+  margin-left: 10rem;
+  margin-bottom: -6rem !important;
+  width: 15rem;
+  height: 15rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  float: left !important;
+
+}
+
+.taskFoot{
+
+  background-color: #ffc93c !important;
+  filter: drop-shadow(2px 4px 8px #585858);
+  width: 15rem !important;
+  height: 2rem !important;
+  text-align: center;
+  position: sticky;
+  line-height: 2rem;
+  top: 2rem !important;
+  bottom: 1.4rem !important;
+  border-radius: 5px;
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+}
+
+.titleTask {
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-right: 5rem;
+}
+
+.divTask p {
+  font-size: 1.1em;
+  display: block;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  word-spacing: 3px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  
+}
+
+.stickTop {
+  position: sticky;
+  top: -1rem;
+  width: 18rem;
+  background-color: #2b2e4a;
+  border-radius: 5px;
+}
+
+.Delete {
+  left: 10rem;
+  border-radius: 50px;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px #868686;
+  width: 5vw;
+  height: 5vh;
+  color: #fff;
+
+}
+
+.Delete:hover {
+  
+  color: red;
+}
+
+.e-date-wrapper {
+  position: absolute;
+  top: 10rem;
+}
+.pickDate {
+  position: relative;
+  top: 0 !important;
+  font-size: 1.4rem !important;
+  font-weight: bolder;
+}
+
+.color_div{
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  position: sticky;
+  bottom: -.6rem;
+  width: 14rem !important;
+  height: 5vh;
+}
+.btn {
+  border-radius: 50% !important;
+  width: 2rem;
+  height: 4vh;
+  margin-bottom: 4px;
+
+}
+
+.btn:hover {
+  border: 2px solid #000 !important;
+}
+
+
+
+@media(max-width: 400px) {
+  
+  .header {
+
+    background-image: linear-gradient(#00b09b, #96c93d);
+    background-attachment: fixed;
+    width: 100%;
+    height: 8vh;
+    position: relative;
+  
+  }
+  
+  .headingTop {
+  
+      position: relative;
+      top: 10px;
+      font-size: 20px;
+      font-weight: 500;
+  
+  }
+  
+  .logo {
+  
+    width: 10vw;
+    height: 8vh;
+    float: left;
+    position: relative;
+   
+  }
+  
+  .test-class{
+  
+    position: absolute;
+    right: 2px;
+  }
+
+  /* ------ */
+
+  .main_div {
+
+    position: relative;
+    left: 6rem;
+    width: 60%;
+    height: 25vh;
+  }
+  
+  .main_div input,textarea {
+    width: 40vw;
+    height: 4vh;
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-size: 20px;
+  }
+  
+  .main_div textarea {
+  
+      position: absolute;
+      top: 26%;
+      height: 14vh;
+      font-size: 16px;
+  }
+  
+  .main_div Button {
+  
+      position: absolute;
+      top: 92%;
+      bottom: 0;
+      right: 2px;
+      width: 5vw !important;
+      height: 5vh !important; 
+  
+  }
+  
+  .plus {
+    font-weight: 600;
+    font-size: 30px !important;
+  
+  }
+
+  /* --------- */
+
+  .divTask {
+
+  padding: 8px;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-bottom: -4rem !important;
+
+  }
+     
+}

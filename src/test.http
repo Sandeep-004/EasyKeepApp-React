@@ -1,0 +1,8 @@
+POST http://localhost:3001/app/React-EasyKeepApp-cloneGooglekeep
+Content-Type: application/json
+
+{
+    "title":"Sandeep Project",
+    "content":"I am doing it myself",
+    "date": "12/12/10"  
+}
